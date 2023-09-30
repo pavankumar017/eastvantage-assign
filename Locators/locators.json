@@ -1,0 +1,31 @@
+{
+  "locators": {
+    "eastvantage": {
+      "login_btn": "access my account",
+      "usr_name": "#loginEmail",
+      "password": "#loginPassword",
+      "login_auth_screen": "input[value='Login']",
+      "submit_application": "li[class='newProject'] a",
+      "submit_application_new": "Submit a new applica",
+      "first_name": "input[id='629d7b5a-f6a1-5a14-ac1d-21b2fafdbdef']",
+      "last_name": "input[id='23e5e47e-bab1-5a1e-9929-f180182bda43']",
+      "address": "textarea[id='7172c3f2-f508-5f9c-82a1-11ce9d0f3edc::c3f44a2e-72e9-587b-b88c-b5c9fbeed2db']",
+      "postal_code": "input[name='131e1102-02ae-5770-b1a5-df15fcdd4733::e57df0b5-c2ad-514a-967f-ee8b962f5ed4']",
+      "country": "7e595970-fc12-558c-9eaf-385735fcae6b",
+      "upload_button": "input[title='file input']",
+      "select_male": "#f3fa11a5-a516-5cec-9025-b940b1b113d0",
+      "role": "field_f801d7d8-0762-5407-95f9-b8c3a793157c",
+      "robot_framwork": "label[for='773e5289-f4b3-5d6d-ac81-5c99e2b39acd']",
+      "next_button": "#navButtonNext",
+      "frame_class": "[class='cke_wysiwyg_frame cke_reset']",
+      "frame_body": "body[role='textbox']",
+      "firstname_summary": "div[id='container_629d7b5a-f6a1-5a14-ac1d-21b2fafdbdef'] div[class='field']",
+      "lastname_summary": "div[id='container_23e5e47e-bab1-5a1e-9929-f180182bda43'] div[class='field']",
+      "address_summary": "div[id='container_c3f44a2e-72e9-587b-b88c-b5c9fbeed2db'] div[class='field']",
+      "country_summary": "div[id='container_7e595970-fc12-558c-9eaf-385735fcae6b'] div[class='field']",
+      "postal_summary": "div[id='container_e57df0b5-c2ad-514a-967f-ee8b962f5ed4'] div[class='field']",
+      "tools_summary": "div[id= 'container_8ea15213-d487-50b7-b6e1-73d26826b37e'] div[class='field']",
+      "submit_final": "#submitButton"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20230930 15:35:38.765" rpa="false" schemaversion="2">
+<suite id="s1" name="Eastvantage" source="/Users/pavankumar/VSCODE/eastvantage-assign/testcase/eastvantage.robot">
+<kw name="Open Browser &quot;https://automationinterface1.front.staging.optimy.net/en/&quot;" library="eastvantage_keyword" type="SETUP" sourcename="Open Browser &quot;${URL}&quot;">
+<kw name="Open Browser" library="utils">
+<arg>${URL}</arg>
+<status status="PASS" starttime="20230930 15:35:38.829" endtime="20230930 15:35:41.734"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:38.829" endtime="20230930 15:35:41.735"/>
+</kw>
+<test id="s1-t1" name="User to verify login functionality">
+<kw name="Given User Clicks on login" library="eastvantage_keyword">
+<kw name="Click Login" library="test">
+<doc>clicks on login button</doc>
+<status status="PASS" starttime="20230930 15:35:41.736" endtime="20230930 15:35:42.891"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:41.735" endtime="20230930 15:35:42.891"/>
+</kw>
+<kw name="And User enters emailid" library="eastvantage_keyword">
+<kw name="Enter Username" library="test">
+<status status="PASS" starttime="20230930 15:35:42.891" endtime="20230930 15:35:42.980"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:42.891" endtime="20230930 15:35:42.980"/>
+</kw>
+<kw name="And User enters password" library="eastvantage_keyword">
+<kw name="Enter Pwd" library="test">
+<status status="PASS" starttime="20230930 15:35:42.980" endtime="20230930 15:35:43.009"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:42.980" endtime="20230930 15:35:43.009"/>
+</kw>
+<kw name="Then User clicks on login in authentication screen" library="eastvantage_keyword">
+<kw name="Click Login Auth Screen" library="test">
+<status status="PASS" starttime="20230930 15:35:43.010" endtime="20230930 15:35:43.676"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:43.010" endtime="20230930 15:35:43.676"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:41.735" endtime="20230930 15:35:43.676"/>
+</test>
+<test id="s1-t2" name="User to test submitting a application">
+<kw name="Given User is logged in" library="eastvantage_keyword">
+<kw name="Verify Login" library="test">
+<status status="PASS" starttime="20230930 15:35:43.677" endtime="20230930 15:35:43.699"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:43.677" endtime="20230930 15:35:43.699"/>
+</kw>
+<kw name="And User clicks on submit application" library="eastvantage_keyword">
+<kw name="Click Submit Application" library="test">
+<status status="PASS" starttime="20230930 15:35:43.699" endtime="20230930 15:35:44.767"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:43.699" endtime="20230930 15:35:44.767"/>
+</kw>
+<kw name="And User scrolls down and clicks on submit new application" library="eastvantage_keyword">
+<kw name="Click Submit New Application" library="test">
+<doc>scroll dowm and click on submit new application</doc>
+<status status="PASS" starttime="20230930 15:35:44.767" endtime="20230930 15:35:49.655"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:44.767" endtime="20230930 15:35:49.655"/>
+</kw>
+<kw name="And User Enters All the mandatory fields with firstname as &quot;Test&quot;" library="eastvantage_keyword" sourcename="User Enters All the mandatory fields with firstname as &quot;${firstname}&quot;">
+<kw name="Enter First Name" library="test">
+<arg>${firstname}</arg>
+<status status="PASS" starttime="20230930 15:35:49.656" endtime="20230930 15:35:49.703"/>
+</kw>
+<kw name="Enter Last Name" library="test">
+<status status="PASS" starttime="20230930 15:35:49.703" endtime="20230930 15:35:49.735"/>
+</kw>
+<kw name="Enter Address" library="test">
+<status status="PASS" starttime="20230930 15:35:49.735" endtime="20230930 15:35:49.761"/>
+</kw>
+<kw name="Enter Postcode" library="test">
+<doc>enter postal code as 1000 and click enter</doc>
+<status status="PASS" starttime="20230930 15:35:49.761" endtime="20230930 15:35:55.850"/>
+</kw>
+<kw name="Select Country India" library="test">
+<doc>select country as india by value "IN</doc>
+<status status="PASS" starttime="20230930 15:35:55.850" endtime="20230930 15:35:55.897"/>
+</kw>
+<kw name="Upload Image" library="test">
+<doc>upload a image from local machine</doc>
+<status status="PASS" starttime="20230930 15:35:55.897" endtime="20230930 15:35:55.925"/>
+</kw>
+<kw name="Select Gender" library="test">
+<doc>click on radio button male</doc>
+<status status="PASS" starttime="20230930 15:35:55.925" endtime="20230930 15:35:55.948"/>
+</kw>
+<kw name="Select Role" library="test">
+<doc>select role</doc>
+<status status="PASS" starttime="20230930 15:35:55.948" endtime="20230930 15:35:55.982"/>
+</kw>
+<kw name="Select Tools" library="test">
+<doc>click on robot framework readio button</doc>
+<status status="PASS" starttime="20230930 15:35:55.982" endtime="20230930 15:35:56.003"/>
+</kw>
+<kw name="Enter Career Objective" library="test">
+<doc>switch to frame 0 and enter carrer objective</doc>
+<status status="PASS" starttime="20230930 15:35:56.003" endtime="20230930 15:35:56.056"/>
+</kw>
+<kw name="Click Next" library="test">
+<doc>click on next button</doc>
+<status status="PASS" starttime="20230930 15:35:56.056" endtime="20230930 15:35:56.088"/>
+</kw>
+<status status="PASS" starttime="20230930 15:35:49.655" endtime="20230930 15:35:56.088"/>
+</kw>
+<kw name="Then User should verify the deatils entered in summary page" library="eastvantage_keyword">
+<kw name="Verify Summary Details" library="test">
+<doc>assert the summary details</doc>
+<msg timestamp="20230930 15:35:56.164" level="FAIL">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[id= 'container_8ea15213-d487-50b7-b6e1-73d26826b37e'] div[class='field']"}
+  (Session info: chrome=117.0.5938.132)
+Stacktrace:
+0   chromedriver                        0x0000000100cc665c chromedriver + 4318812
+1   chromedriver                        0x0000000100cbed00 chromedriver + 4287744
+2   chromedriver                        0x00000001008f07ec chromedriver + 296940
+3   chromedriver                        0x000000010092e048 chromedriver + 548936
+4   chromedriver                        0x0000000100966d28 chromedriver + 781608
+5   chromedriver                        0x0000000100922178 chromedriver + 500088
+6   chromedriver                        0x0000000100922fc0 chromedriver + 503744
+7   chromedriver                        0x0000000100c86c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100c8b160 chromedriver + 4075872
+9   chromedriver                        0x0000000100c4ee68 chromedriver + 3829352
+10  chromedriver                        0x0000000100c8bc4c chromedriver + 4078668
+11  chromedriver                        0x0000000100c63f08 chromedriver + 3915528
+12  chromedriver                        0x0000000100ca8140 chromedriver + 4194624
+13  chromedriver                        0x0000000100ca82c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100cb84d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x00000001a967606c _pthread_start + 148
+16  libsystem_pthread.dylib             0x00000001a9670e2c thread_start + 8
+</msg>
+<status status="FAIL" starttime="20230930 15:35:56.088" endtime="20230930 15:35:56.164"/>
+</kw>
+<status status="FAIL" starttime="20230930 15:35:56.088" endtime="20230930 15:35:56.164"/>
+</kw>
+<status status="FAIL" starttime="20230930 15:35:43.676" endtime="20230930 15:35:56.164">NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[id= 'container_8ea15213-d487-50b7-b6e1-73d26826b37e'] div[class='field']"}
+  (Session info: chrome=117.0.5938.132)
+Stacktrace:
+0   chromedriver                        0x0000000100cc665c chromedriver + 4318812
+1   chromedriver                        0x0000000100cbed00 chromedriver + 4287744
+2   chromedriver                        0x00000001008f07ec chromedriver + 296940
+3   chromedriver                        0x000000010092e048 chromedriver + 548936
+4   chromedriver                        0x0000000100966d28 chromedriver + 781608
+5   chromedriver                        0x0000000100922178 chromedriver + 500088
+6   chromedriver                        0x0000000100922fc0 chromedriver + 503744
+7   chromedriver                        0x0000000100c86c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100c8b160 chromedriver + 4075872
+9   chromedriver                        0x0000000100c4ee68 chromedriver + 3829352
+10  chromedriver                        0x0000000100c8bc4c chromedriver + 4078668
+11  chromedriver                        0x0000000100c63f08 chromedriver + 3915528
+12  chromedriver                        0x0000000100ca8140 chromedriver + 4194624
+13  chromedriver                        0x0000000100ca82c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100cb84d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x00000001a967606c _pthread_start + 148
+16  libsystem_pthread.dylib             0x00000001a9670e2c thread_start + 8
+</status>
+</test>
+<status status="FAIL" starttime="20230930 15:35:38.765" endtime="20230930 15:35:56.165"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Eastvantage">Eastvantage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
